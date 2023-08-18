@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form id="registrationform" onsubmit="return validateForm()">
+		<label for="firstname">First name:</label>
+		<input type="text" id="firstname" name="firstname"><br><br>
+
+		<label for="lastname">Last name:</label>
+		<input type="text" id="lastname" name="lastname"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+
+		<label for="birthday">Birthday:</label>
+		<select id="birthday" name="birthday">
+			<option value="">--Select a day--</option>
+			<!--Add days here-->
+		</select>
+		<select id="birthmonth" name="birthmonth">
+			<option value="">--Select a month--</option>
+			<!--Add months here-->
+		</select>
+		<select id="birthyear" name="birthyear">
+			<option value="">--Select a year--</option>
+			<!--Add years here-->
+		</select><br><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male">Male
+		<input type="radio" id="female" name="gender" value="female">Female
+		<input type="radio" id="other" name="gender" value="other">Other<br><br>
+
+		<label for="country">Country:</label>
+		<select id="country" name="country">
+			<option value="">--Select a country--</option>
+			<option value="Vietnam">Vietnam</option>
+			<option value="Australia">Australia</option>
+			<option value="United States">United States</option>
+			<option value="India">India</option>
+			<option value="Other">Other</option>
+		</select><br><br>
+
+		<label for="about">About:</label>
+		<textarea id="about" name="about" rows="5" cols="50"></textarea><br><br>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+
+</body>
+
+
+

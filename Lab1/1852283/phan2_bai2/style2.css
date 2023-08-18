@@ -1,0 +1,65 @@
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    padding: 10px;
+}
+th {
+    padding: 10px;
+}
+#table2 {
+    border-collapse: collapse;
+}
+
+#menu {
+    list-style: none;
+  }
+  
+#menu li {
+    display: inline;
+    padding: 0 10px;
+    border-left: solid 1px black;
+}
+  
+#menu li:first-child {
+    border-left: none;
+}
+
+h1 {
+    color: brown;
+    text-shadow: 3px 3px #0000FF;
+    font-size: 50px;
+}
+
+h2 {
+    color: brown;
+}
+
+.sizei {
+    font-size: 60px;
+}
+.size1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.size2 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.color1 {
+    color: red;
+}
+.color2 {
+    color:blue;
+}
+
+.highlighter {
+    text-decoration: none;
+}
+.highl {
+    background-color: black;
+    color: cyan;
+}

@@ -1,0 +1,31 @@
+#menu {
+    list-style: none;
+}
+  
+#menu li {
+    display: inline;
+    padding: 0 10px;
+    
+    /* border-left: solid 1px black; */
+}
+  
+#menu li:first-child {
+    border-left: none;
+}
+
+#f a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.bodystyle {
+    margin: auto;
+    padding: 0px;
+    font-family: 'Trebuchet MS',verdana;
+}
+
+html {
+    width: 800px;
+     margin: 0 auto;
+  }

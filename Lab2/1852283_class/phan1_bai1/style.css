@@ -1,0 +1,73 @@
+.color1{
+    color: blue;
+}
+.page{
+
+}
+.H1{
+    padding-top: 0.2cm;
+    height: 30px;
+    width: 635px;
+    border: 2px solid;
+}    
+.H2{
+    width: 635px;
+    height: 500px;
+    border: 2px solid;
+}
+.C1{
+    width: 125px;
+    height: 300px;
+    border: 2px solid;
+    float: left;
+}
+.C2{
+    width: 370px;
+    height: 500px;
+    border: 2px solid;
+    float: left;
+}
+.C3{
+    width: 128px;
+    height: 440px;
+    border: 2px solid;
+    float: left;
+}
+.H3{
+    width: 635px;
+    height: 100px;
+    border: 2px solid;
+}
+.C21{
+    width: 100px;
+    height: 120px;
+    border: 2px solid;
+    float: left;
+}
+.R1{
+    height: 150px;
+    width: 320px;
+}
+.button{
+    width: 70%;
+    height: 10%;
+    font-size: 8px;
+
+}
+.price{
+    font-size: 10px;
+}
+.R2{
+    float: right;
+    border: 2px solid;
+    width: 150px;
+    height: 20px;
+}
+.R21{
+    float: left;
+    font-size: 12px;
+    align-content: ;
+    width: 30px;
+    height: 20px;
+    border-right: 2px solid;
+}
